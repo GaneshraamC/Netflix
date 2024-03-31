@@ -5,6 +5,8 @@ import netflixshow from './pages/netflixshow';
 import Footer from './components/Footer/Footer';
 import Banner from './components/Banner/Banner';
 import Row from './components/Row/Row';
+import Navbar from './components/Navbar/Navbar';
+
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
       <Routes>
         <Route path='/' Component={netflixshow}/>
       </Routes>
+      <Navbar/>
       <Banner/>
       <Row/>
       <Footer/>
